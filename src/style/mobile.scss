@@ -1,15 +1,19 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
 
    body{
 
        .blocks.mobile{
            display:block;
+           .container{
+               width: 300px;
+               
+           }
        }
 
        h2.ecosystema{
           margin: 60px;
        }
-
+       
        .block{
            display: block;
            background: #fff;
@@ -78,6 +82,39 @@
                  margin-top: 10px;
                }
             }
+        }
+   }
+
+   .block.block_1{
+       
+       height:670px;
+
+       a{
+          position:absolute;
+       }
+
+    .s4{ }
+    .lookbox{    margin: 0 107px;}
+    .next2u{        margin: -14px 198px;}
+    .dresscode{        margin: 79px 37px;}
+    .qpfasion{   margin: 76px 156px;}
+    .trusbox{   margin: 148px 4px;}
+    .sarafan{      margin: 186px 91px;}
+    .hydra{    margin: 142px 189px;}
+    .tardis{    margin: 253px 180px;}
+    .qlothes{        margin: 476px 107px;}
+    .aveeva{    margin: 300px 10px;} 
+    .sofitsme{    margin: 440px 93px;}
+    .epytom{    margin: 375px 8px;}
+    .cpz{   margin: 438px 17px;}
+    .kuznech{     margin: 340px 200px;}
+    .C{  margin: 452px 238px;}
+   }
+
+   .block{
+        a{
+            margin-bottom: 20px;
+            display: block;
         }
    }
 }
