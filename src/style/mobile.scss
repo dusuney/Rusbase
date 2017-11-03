@@ -1,0 +1,83 @@
+@media only screen and (max-width: 400px) {
+
+   body{
+
+       .blocks.mobile{
+           display:block;
+       }
+
+       h2.ecosystema{
+          margin: 60px;
+       }
+
+       .block{
+           display: block;
+           background: #fff;
+           margin-top:30px;
+           padding-bottom:30px;
+
+           img{
+            margin: 0 auto;
+            display: block;
+           }
+           .container{
+                width: 290px;
+                margin-left: auto;
+                margin-right: auto;
+                padding:0;
+           }
+           p{
+               color: #000;
+                width: 254px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 23px;
+                padding-bottom: 20px;
+                font-weight: 600;
+           }
+       }
+       h1 { 
+            font-size: 2.4em;
+            margin-top:0;
+        }
+        h2{
+           font-size:2em;
+           margin-top:20px; 
+        }
+        .pc{
+            display: none;
+        }
+        img.background{
+            display: none;
+        }
+
+        .mainCircle{
+            display:none;
+        }
+
+        img.logo2{
+            margin: 21px 11px;
+            width: 109px
+        }
+        img.logo1{
+            width: 100px;
+        }
+
+        p.about{
+            padding: 40px 20px;
+        }
+
+        footer{
+            ul{
+               margin-top: 40px;
+               padding:0; 
+               li{
+                 float: none;
+                 margin-left:0;
+                 margin-top: 10px;
+               }
+            }
+        }
+   }
+}
